@@ -29,7 +29,7 @@ It is based on android's modern Architecture Corooutine<br>
 2. Add the dependency in app level build.gradle:
 ```bash
   dependencies {
-	  implementation 'com.github.DevComm-in:Asyncer:1.0.0'
+	  implementation 'com.github.DevComm-in:Asyncer:v1.0.0'
   }
 ```
 
