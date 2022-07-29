@@ -8,13 +8,13 @@
 <!--    <img src="https://img.shields.io/badge/Support-Recommed%2FEndorse%20me%20on%20Linkedin-yellow?style=for-the-badge&logo=linkedin" alt="Connect with us" /></a> -->
 
 
-# Asyncer
-It let you do your task in background thread with callback of completion or failure.<br>
-It is super easy to implement (See Example)<br>
-It is based on android's modern Architecture Corooutine<br>
+# Asyncer (Backgrounnd Task Manager Library)
+- It let you do your task in background thread with callback of completion or failure.<br>
+- It is Light weight, super easy to implement (See Example)<br>
+- It is based on android's modern Architecture: Corooutine<br>
 
 
-### To use this library,<br>
+### How to use this library,<br>
 1. Add it in your project level build.gradle at the end of repositories:
 ```bash
   allprojects {
@@ -35,7 +35,7 @@ It is based on android's modern Architecture Corooutine<br>
 
 
 
-## Example Use Cases:
+## Example Use Case:
 ```kotlin
 class MainActivity : AppCompatActivity() {
 
