@@ -9,9 +9,9 @@
 
 
 # Asyncer
-It let you do your task in background thread with callback of completion or failure.
-It is super easy to implement (See Example)
-It is based on android's modern Architecture Corooutine
+It let you do your task in background thread with callback of completion or failure.<br>
+It is super easy to implement (See Example)<br>
+It is based on android's modern Architecture Corooutine<br>
 
 
 ### To use this library,<br>
