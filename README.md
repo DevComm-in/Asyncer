@@ -15,14 +15,25 @@
 
 
 ### How to use this library,<br>
-1. Add it in your project level build.gradle at the end of repositories:
-```bash
-  allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+1. Add it in your setting.gradle in project view:
+```gradle
+  pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        (maven { url 'https://jitpack.io' })
+    }
+}
+rootProject.name = "devcomm"
+include ':app'
 ```
 
 
