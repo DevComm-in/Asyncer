@@ -15,29 +15,21 @@
 
 
 ### How to use this library,<br>
-1. Add it in your setting.gradle in project view:
+1. Add it in your `setting.gradle` in project view:
 ```gradle
-  pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-    }
-}
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        (maven { url 'https://jitpack.io' })
+	...
+	(maven { url 'https://jitpack.io' }) 
     }
 }
-rootProject.name = "devcomm"
-include ':app'
 ```
 
 
-2. Add the dependency in app level build.gradle:
+2. Add the dependency in app level `build.gradle`:
 ```bash
   dependencies {
 	  implementation 'com.github.DevComm-in:Asyncer:v1.0.0'
