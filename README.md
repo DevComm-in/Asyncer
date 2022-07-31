@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
     //when start btn is clicked
     private fun onClick(){
     
-        //sowing indicator that background task is started
+        //showing indicator that background task is started
         progressBar.visibility = View.VISIBLE
         
         Asyncer().init(object : Task {
